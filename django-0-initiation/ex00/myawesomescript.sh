@@ -18,4 +18,8 @@ fi
 
 res=$(curl -I "$arg" -s | grep -i location | cut -c 11- )
 
-echo ${res%?}
+if [ -z "$res" ]; then
+  echo "fatal: not found"
+else
+  echo ${res%?}
+fi
