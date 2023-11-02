@@ -37,18 +37,18 @@ class Cappuccino(HotBeverage):
         self.price = 0.45
         self.desc = "Un po' di Italia nella sua tazza!"
     
-def main():
-    bev = HotBeverage()
-    coffee = Coffee()
-    tea = Tea()
-    chocolate = Chocolate()
-    cappuccino = Cappuccino()
+# def main():
+#     bev = HotBeverage()
+#     coffee = Coffee()
+#     tea = Tea()
+#     chocolate = Chocolate()
+#     cappuccino = Cappuccino()
 
-    print(bev, end="\n=====\n")
-    print(coffee, end="\n=====\n")
-    print(tea, end="\n=====\n")
-    print(chocolate, end="\n=====\n")
-    print(cappuccino, end="\n=====\n")
+#     print(bev, end="\n=====\n")
+#     print(coffee, end="\n=====\n")
+#     print(tea, end="\n=====\n")
+#     print(chocolate, end="\n=====\n")
+#     print(cappuccino, end="\n=====\n")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
